@@ -1,0 +1,164 @@
+<html>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+
+<head>
+
+    <title> </title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"> </script>
+</head>
+
+<script>
+    function showMenue() {
+        document.getElementById('menu').classList.add('show-overlay-menue');
+    }
+
+
+    function closeMenue() {
+        document.getElementById('menu').classList.remove('show-overlay-menue');
+    }
+</script>
+
+<body>
+    <img class="header-image" src="Bandpage/img/header.png">
+
+    <div class="header-content">
+        <h1 class="header1"> ROCK MOUNTAIN</h1>
+        <h3 class="text-center-header" id="test">Discover the best live music </h3>
+
+        <a href="#" class="btn"> Upcoming Shows </a>
+    </div>
+
+    <div class="navigation-bar">
+        <img src="Bandpage/img/logo.png" class="header-logo">
+        <img onclick="showMenue()" class="menu1" src="Bandpage/img/bars-solid.svg">
+        <nav class="header-nav hide-mobile overlay-menue" id="menu">
+
+            <a href="#"> <i class="fas fa-home"> </i> <span style="color:#F1B82D"> HOME </a> </span>
+            <a href="#"> <i class="fas fa-search-location"> </i> <span style="color:#F1B82D">LOCATIONS</a> </span>
+            <a href="#"> <i class="fas fa-users"> </i> <span style="color:#F1B82D"> ABOUT </a> </span>
+            <a href="#"> <i class="fas fa-phone-alt"> </i> <span style="color:#F1B82D"> CONTACT </a> </span>
+            <a href="#"> <i class="fas fa-hashtag"> </i> <span style="color:#F1B82D"> SOCIAL MEDIA </a> </span>
+            <div onclick="closeMenue()" class="close-button"> <i class="fas fa-window-close"> </i> </div> 
+            <!--  <div class="icons3">
+                <a href="#"> <img class="social-media-icon2" src="Bandpage/img/facebook-64.png"> </a>
+                <a href="#"> <img class="social-media-icon2" src="Bandpage/img/instagram-6-64.png"> </a>
+                <a href="#"> <img class="social-media-icon2" src="Bandpage/img/twitter-64.png"> </a>
+                </div> -->
+
+        </nav>
+    </div>
+
+    <div class="content1 bg-black">
+        <div class="content1-elem">
+            <h3 class="text-gold"> NEWS</h3>
+            <img src="Bandpage/img/category1.png" class="content1-pic">
+        </div>
+        <div class="content1-elem">
+            <h3 class="text-gold"> ALBUM </h3>
+            <img src="Bandpage/img/category2.png" class="content1-pic">
+        </div>
+        <div class="content1-elem">
+            <h3 class="text-gold"> STORE </h3>
+            <img src="Bandpage/img/category3.png" class="content1-pic">
+        </div>
+    </div>
+
+    <div class="content2 bg-darkgrey">
+
+        <img src="Bandpage/img/p5.png" class="content2-pic hide-mobile">
+
+
+        <div class="content2-elem">
+            <p class="text-left"> 27 Sep 20 </p>
+            <h2 class="text-center-festival"> 31 STATE FESTIVAL </h2>
+            <p class="text-left">
+                Lorem ipsum dolor sit amet consectetur <br>
+                adipisicing elit. Accusamus corporis officiis <br>
+                deserunt vero obcaecati. Reiciendis nobis deleniti earum dolor, <br>
+                sequi itaque veritatis amet enim, quam <br>
+                voluptas quidem temporibus voluptates porro.</p>
+        </div>
+
+        <div class="content2-elem">
+            <img src="Bandpage/img/white line.png" class="content2-pic2 hide-mobile">
+        </div>
+
+        <div class="content21-elem">
+            <a href="#" class="btn"> Buy Ticket </a>
+        </div>
+
+
+
+    </div>
+
+    <div class="content3 bg-white">
+
+        <h2 class="text-center-bold"> FOLLOW AND LISTEN TO THIS PLAYLIST TO <br>
+            GET PREPARED FOR THE SHOW! </h2>
+    </div>
+
+    <div> <img class="bottom-image" src="Bandpage/img/bottom.png"> </div>
+
+
+    <div class="footer">
+        <div class="footer-left">
+            <p class="text-left-bold">Logos stammen u. A. von <a href="https://icons8.com"> https://icons8.com </a> </p>
+        </div>
+        <div class="footer-right">
+            <a href="#"> <img class="social-media-icon" src="Bandpage/img/Facebook.png"> </a>
+            <a href="#"> <img class="social-media-icon" src="Bandpage/img/ins.png"> </a>
+            <a href="#"> <img class="social-media-icon" src="Bandpage/img/twitter.png"> </a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-left">
+            <p class="text-left-bold"> SUBSCRIBE & FOLLOW TO GET <br>
+                UPDATES FROM ROCK MOUNTAIN! </p>
+        </div>
+
+        <div class="footer-right">
+            <input type="email"><button>SUBMIT</button>
+        </div>
+
+    </div>
+
+    <!-- 
+    <div class="footer-row">
+
+     <div class="footer-container">
+        <p class="text-left-bold">Logos stammen u. A. von  <a href="https://icons8.com"> https://icons8.com </a>  </p>
+     </div>
+
+        <div class="footer-container">
+            <a href="#"> <img class="social-media-icon" src="Bandpage/img/Facebook.png"> </a>
+            <a href="#"> <img class="social-media-icon" src="Bandpage/img/ins.png"> </a>
+            <a href="#"> <img class="social-media-icon" src="Bandpage/img/twitter.png"> </a>
+        </div>
+
+    </div>
+
+    <div class="footer-row">
+
+        <div class="footer-container">
+            <p class="text-left-bold"> SUBSCRIBE & FOLLOW TO GET <br>
+            UPDATES FROM ROCK MOUNTAIN! </p>
+        </div>
+
+        <div class="footer-container">
+           <a href="#" class="btn2"> E-Mail-Adress </a>
+            <a href="#" class="btn"> Submit</a>
+        </div>
+
+    </div>
+
+    -->
+
+</body>
+
+</html>
